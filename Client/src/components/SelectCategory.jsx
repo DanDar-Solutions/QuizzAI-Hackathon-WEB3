@@ -48,7 +48,7 @@ const SelectCategory = ({
                 ))}
             </div>
             
-            {!haveamount && <div className="stake-input-section">
+            {haveamount && <div className="stake-input-section">
                 <label htmlFor="stake-amount">
                     Stake Amount (ETH)
                 </label>
